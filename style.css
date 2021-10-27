@@ -22,8 +22,8 @@ li {
   --blue: #00b0bd;
   --light-blue: #cfe8ff;
   --grey: #eee;
-  --dark-grey: #aaaaaa;
-  --dark: #1d1d1d;
+  --dark-grey: #7e7e7e;
+  --dark: #2c2c2c;
   --red: #db504a;
   --yellow: #ffce26;
   --light-yellow: #fff2c6;
@@ -363,7 +363,7 @@ body {
 }
 
 .content main .head-title .left .breadcrumb li a.active {
-  color: var(--light);
+  color: var(--light-blue);
   pointer-events: unset;
 }
 
@@ -497,8 +497,7 @@ body {
 }
 
 .content main .table-data .order table tbody tr:hover {
-  background-color: var(--grey);
-  color: var(--dark);
+  background-color: var(--dark-grey);
 }
 
 .content main .table-data .order table tr td .status {
@@ -542,7 +541,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-left: 10px solid;
-  color: var(--dark);
+  color: var(--gray);
 }
 
 .content main .table-data .todo .todo-list li .bx {
@@ -612,10 +611,10 @@ body {
   }
 
   .content main .table-data .head {
-    min-width: 420px;
+    min-width: 400px;
   }
 
   .content main .table-data .order table {
-    min-width: 420px;
+    min-width: 400px;
   }
 }
